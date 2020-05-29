@@ -14,12 +14,12 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <router-link to="/" class="nav-link" href="#">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/about" class="nav-link" href="#">About</router-link>
+          <router-link to="/about" class="nav-link" href="" >VeeV</router-link>
         </li>
         <li class="nav-item dropdown">
           <a
@@ -38,14 +38,7 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </nav>
 </template>
