@@ -150,7 +150,7 @@ extend("email", email);
 // Override the default message.
 extend("required", {
   ...required,
-  message: "Email is required"
+  message: "this field is required"
 });
 extend("min", {
   ...min,
