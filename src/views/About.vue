@@ -1,6 +1,14 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <button class="btn btn-success">Save</button>
+    <app-Vee></app-Vee>
   </div>
 </template>
+<script>
+import VeelidateForm from "@/components/VeelidateForm.vue";
+
+export default {
+  components: {
+    appVee: VeelidateForm
+  }
+};
+</script>
